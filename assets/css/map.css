@@ -1,0 +1,67 @@
+nav {position: fixed;}
+#map {
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    background-color: rgb(229, 227, 223);}
+
+
+#sidebarm {height: 90vh;/*    position: fixed;*/top: 81px;background: #eaf9ec;overflow: unset!important;}
+nav.navbar.navbar-default {position: fixed;clear: both;z-index: 111;width: 100%;}
+.col-md-12 > .text-center > h4 {color: #098db3;}
+/** 1==>Registered Popuion with LHW**/
+.col-md-20 > .text-center > p .fa {font-size: 30px}
+.col-md-20 > .text-center > p > label {font-size: 16px;}
+.col-md-20 > .text-center > label {line-height: 5px;font-weight: 400;}
+.service-box .service-icon .flaticon:before {line-height: 50px;color: #8dc354;font-size: 45px;}
+.service-box {margin: 5px 0px;text-align: center;}
+.service-color {font-weight: 450;}
+/*progress chart*/
+#container1,#container2,#container3,#container4 {margin: 5px;width: 100px;}
+.progressbar h5 {font-weight: 700;font-size: 16px;color: #747474;}
+@media(min-width:1400px) {
+    #container1,
+    #container2,
+    #container3,
+    #container4 {
+        margin-left: 20%;
+    }
+}
+@media (max-width: 1200px) {
+    .service-box .service-icon .flaticon:before{font-size: 45px;    }
+    #sidebarm {height: 100vh;}
+    #map{height: 100vh;}
+}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {
+    .filter-panel .navbar-form {margin: 0px; margin-top: 22px;}
+    .service-box h4 {font-size: 10px;}
+    .heading h4{font-size: 13px;font-weight: 600;}
+    .heading h5{font-size: 12px;}
+    .col-md-20 > .text-center > p > label {font-size: 12px;}
+    .col-md-20 > .text-center > label{font-weight: 300;}
+    .col-md-20.p-r-0.p-l-0 .font-25{font-size: 18px!important;}
+    .row.m-t-10{margin-top: 0px!important;}
+    .service-box span {font-size: 12px;}
+    .row.progressbar.text-center #container1, #container2, #container3, #container4{width: 60px;}
+    .progressbar h5{font-weight: 500;}
+    .progressbar h5{font-weight: 500;font-size: 13px;}
+    .service-box .service-icon .flaticon:before{
+            font-size: 30px;
+    }
+}
+@media (max-width: 480px) {
+    #sidebarm{top:580px;}
+    .heading h4 {font-size: 17px;font-weight: 600;}
+    .service-box h4{    font-size: 13px;}
+    .service-box .service-icon .flaticon:before {font-size: 45px;}
+    .row.progressbar.text-center #container1, #container2, #container3, #container4 {width: 100px; margin: 0 auto;}
+    .progressbar h5 {font-weight: 600;font-size: 14px;}
+    .col-md-20 > .text-center > p > label {
+    font-size: 17px;
+}
+}
+@media (max-width: 340px) {}
+

@@ -1,0 +1,206 @@
+/*************** labels of css section ***************
+***************  theme 1.0v 
+default settings
+theme btns
+preloader
+Parallax settings
+forms inputs
+Back to top btn
+navbar
+banner
+section default
+features
+Parallax
+about
+gallery
+Team
+pricing
+social icons
+contact
+footer
+media responsive
+********************/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,800');
+@import url('../plugins/font-awesome/css/font-awesome.min.css');
+@import url('../plugins/flaticon/flaticon.css');
+/***************default settings********************/
+
+body {    background-color: #fff;    font-family: 'Roboto', sans-serif;}
+p {    color: #747474;}
+a {    color: #f83939;}
+caption {    color: #333;}
+.tc-red {    color: #ff0000;}
+.tc-yellow {    color: #ffc000;}
+.tc-green {    color: #00b050;}
+.tc-black {    color: #000000;}
+.bg-red {   background-color: #ff0000;}
+.bg-yellow {    background-color: #ffc000;}
+.bg-green {    background-color: #00b050;}
+.bg-no {    background-color: #e1e2e3;}
+/***************theme btns********************/
+.btn-primary {    background-color: #00aeef;}
+.btn-primary:focus,
+.btn-primary:hover {    background-color: #007DB8;    border-color: #007DB8;}
+/***************fix cantainer*******************/
+/*********************preloader*************************/
+#preloader {    background-color: #fff;}
+#preloader .text {    color: #0073c7;}
+
+/***************forms inputs********************/
+
+/***************Back to top btn********************/
+
+.back-to-top {color: #fff;background-color: #0e4da3;}
+
+.back-to-top:hover {background: #363636;color: #fff;}
+
+/***************login page********************/
+
+/******************section default**********************/
+
+/***************navbar********************/
+
+.navbar-brand strong {    color: #fff;
+}
+.navbar-default .navbar-brand {    color: #777;}
+.filter-panel {    margin-right: -15px;}
+.filter-panel .navbar-form {    margin-top: 22px;    margin-bottom: 22px;}
+/**************************content*********************************/
+.section-heading {color: #343434;}
+/**************************slider*********************************/
+.banner-text h1 {color: #f83939; background: rgba(255, 255, 255, 0.9);}
+.banner-text h2 {color: #fff;background-color: rgba(248, 57, 57, 0.9);}
+.chart-statistic dt {color: #999;}
+.chart-statistic dd {color: #464646;}
+/**************************services*********************************/
+.blue-color{color:#347ab8;}
+.primary-color,
+.dropdown-menu > li > a.primary-color,
+a.primary-color {color: #009A17;border-color: #009A17;}
+.points-box .points-icon .flaticon:before {color: #347ab8;}
+.points-box .points-icon .fa {color: #088297;}
+.points-box h4 span {color: #088297;}
+
+/**************************facts*********************************/
+.color-cyan {color: #088297;}
+.color-red {color: #d6504b;}
+.color-green {color: #8dc354 !important;}
+.color-red {color: #d6504b !important;}
+
+.color-cyan-lighten-2 {color: #b1dee4;}
+/*.member-box .member-icon .flaticon {color: #ff3b3c;}*/
+.member-box .member-icon label {color: #fff;}
+.member-box .member-icon2 label {color: #fff;}
+.member-box .count {color: #343434;}
+
+
+.member-box .member-icon-1{ border-color:#098db3; color:#098db3; transition:all .4s ease-in-out; }
+.member-box .member-icon-1:hover .flaticon{ color: #fff;}
+.member-box .member-icon-1:hover{ background-color:#098db3;   }
+.member-box .member-icon-1:hover label{color: #098db3;}
+
+.member-box .member-icon-2{ border-color:#d6504b; color:#d6504b; transition:all .4s ease-in-out; }
+.member-box .member-icon-2:hover .flaticon{ color: #fff;}
+.member-box .member-icon-2:hover{ background-color:#d6504b; }
+.member-box .member-icon-2:hover label{color: #d6504b;}
+
+.member-box .member-icon-3{ border-color:#00784a; color:#00784a;transition:all .4s ease-in-out;  }
+.member-box .member-icon-3:hover .flaticon{ color: #fff;}
+.member-box .member-icon-3:hover{ background-color:#00784a; }
+.member-box .member-icon-3:hover label{color: #00784a;}
+
+.member-box .member-icon-4{ border-color:#fb8215; color:#fb8215;transition:all .4s ease-in-out;  }
+.member-box .member-icon-4:hover .flaticon{ color: #fff;}
+.member-box .member-icon-4:hover{ background-color:#fb8215; }
+.member-box .member-icon-4:hover label{color: #fb8215;}
+
+.member-box .member-icon-5{ border-color:#202221; color:#202221; transition:all .4s ease-in-out; }
+.member-box .member-icon-5:hover .flaticon{ color: #fff;}
+.member-box .member-icon-5:hover{ background-color:#202221; }
+.member-box .member-icon-5:hover label{color: #202221;}
+
+/*border color*/
+.member-box .member-icon-2 {border-color: #d6504b;}
+.member-box .member-icon-2 .flaticon {color: #d6504b;}
+.member-box .member-icon-3 {border-color: #00784a;}
+.member-box .member-icon-3 .flaticon {color: #00784a;}
+.member-box .member-icon-4 {border-color: #fb8215;}
+.member-box .member-icon-4 .flaticon {color: #fb8215;}
+.member-box .member-icon-5 {border-color: #202221;}
+.member-box .member-icon-5 .flaticon {color: #202221}
+
+
+.stats-box1 .stats-icon .flaticon {color:#00784a;display: block;}
+.stats-box2 .stats-icon .flaticon {color: #d6504b;display: block;}
+.stats-box3 .stats-icon .flaticon {color: #d6504b;display: block;}
+.stats-box4 .stats-icon .flaticon {color: #00784a;display: block;}
+
+
+/*****************************population********************************/
+.i-panel {background-color: #fff;}
+.infographics-grid-people > ul > li .fa {color: #999;}
+.service-color {color: #088297;font-weight: 600;}
+.progress-listing .progress .progress-bar {background: #347ab8;}
+.colour-box {background: #f6f6f6;border-radius: 0px;}
+/**************************inner page*********************************/
+/**************************inner page*********************************/
+.single-icon-widget label {color: #333;}
+/**************************team*********************************/
+
+/**************************services*********************************/
+
+.service-box .service-icon .flaticon:before {color: #8dc354;}
+/**************************contact*********************************/
+
+/**************************footer*********************************/
+footer {color: #9b9b9b;background: #1d1d1d;}
+.main-footer .footer-upper a:hover {color: #ffffff;}
+.main-footer .footer-upper {color: #999;}
+.footer-bottom {color: #b3b3b3;}
+.footer-upper .column h3 {color: #ffffff;}
+.footer-upper .links-widget li a {color: #888;line-height: 20px;}
+.footer-upper .links-widget li a:hover {color: #ffffff;}
+.main-footer .popular-project li a:before {color: #fff;}
+.main-footer .social-links a {
+color: #9b9b9b;background: #3e3f40;}
+.main-footer .social-links a:hover {color: #ffffff;background: #f83939;}
+.log-control {background: #1D7949;color: #fff;}
+.log-control:hover,
+.log-control:focus {color: #fff;background: #8dc354;}
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+#sidebar {background: #eaf9ec;color: #fff;}
+#dismiss {background: #363636;}
+#dismiss:hover {background: #388e3c;color: #fff;}
+.collaps-btn {background: none transparent;border-color: transparent;color: #388e3c;}
+.collaps-btn:active:focus,
+.collaps-btn:active:hover,
+.collaps-btn:active,
+.collaps-btn:focus,
+.collaps-btn:hover {background: none transparent;border-color: transparent;color: #363636;}
+.overlay {
+    background: rgba(0, 0, 0, 0.7);}
+.donut {background: #069;}
+.dashboard-circular .single-text .media-heading {color: #363636;}
+.dashboard-circular .media .media-heading a {color: #363636;}
+.dashboard-panel .media .media-heading {color: #363636;}
+.dashboard-panel .media .media-heading a {color: #363636;}
+.dashboard-panel .media .media-heading a:hover {color: #388e3c;}
+.dashboard-panel .media .media-heading a small {color: #363636;
+}
+.dashboard-circular .panel .media a > .media-object {background: #000;
+}
+/**************************media responsive*********************************/
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 340px) {}
